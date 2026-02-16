@@ -15,6 +15,6 @@ elif operator == "*":
     print(round(result))
 elif operator == "/":
     result = num1 / num2
-    print(round(result))
+    print(round(result, 2))
 else:
     print(f"{operator} is not a valid operator")
